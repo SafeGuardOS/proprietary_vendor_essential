@@ -800,7 +800,7 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     embms \
     ims \
-    Klik \
+    #Klik \
     uceShimService \
     CNEService \
     HotwordEnrollmentOKGoogleWCD9335 \
