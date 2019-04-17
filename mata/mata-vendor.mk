@@ -29,68 +29,66 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/essential/mata/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/essential/mata/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
-    vendor/essential/mata/proprietary/vendor/lib/libblurbuster.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblurbuster.so \
+    vendor/essential/mata/proprietary/lib/libblurbuster.so:system/lib/libblurbuster.so \
+    vendor/essential/mata/proprietary/lib/libchromaflash.so:system/lib/libchromaflash.so \
     vendor/essential/mata/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
-    vendor/essential/mata/proprietary/vendor/lib/libhazebuster.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhazebuster.so \
+    vendor/essential/mata/proprietary/lib/libdualcameraddm.so:system/lib/libdualcameraddm.so \
+    vendor/essential/mata/proprietary/lib/libhazebuster.so:system/lib/libhazebuster.so \
     vendor/essential/mata/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/essential/mata/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
-    vendor/essential/mata/proprietary/vendor/lib/libjni_blurbuster.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_blurbuster.so \
-    vendor/essential/mata/proprietary/vendor/lib/libjni_chromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_chromaflash.so \
-    vendor/essential/mata/proprietary/vendor/lib/libjni_dualcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_dualcamera.so \
-    vendor/essential/mata/proprietary/vendor/lib/libjni_filtergenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_filtergenerator.so \
-    vendor/essential/mata/proprietary/vendor/lib/libjni_hazebuster.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_hazebuster.so \
-    vendor/essential/mata/proprietary/vendor/lib/libjni_makeupV2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_makeupV2.so \
-    vendor/essential/mata/proprietary/vendor/lib/libjni_optizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_optizoom.so \
-    vendor/essential/mata/proprietary/vendor/lib/libjni_seestraight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_seestraight.so \
-    vendor/essential/mata/proprietary/vendor/lib/libjni_sharpshooter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_sharpshooter.so \
-    vendor/essential/mata/proprietary/vendor/lib/libjni_stillmore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_stillmore.so \
-    vendor/essential/mata/proprietary/vendor/lib/libjni_trueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_trueportrait.so \
-    vendor/essential/mata/proprietary/vendor/lib/libjni_truescanner_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_truescanner_v2.so \
-    vendor/essential/mata/proprietary/vendor/lib/libjni_ubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjni_ubifocus.so \
-    vendor/essential/mata/proprietary/vendor/lib/libseestraight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseestraight.so \
+    vendor/essential/mata/proprietary/lib/libjni_blurbuster.so:system/lib/libjni_blurbuster.so \
+    vendor/essential/mata/proprietary/lib/libjni_chromaflash.so:system/lib/libjni_chromaflash.so \
+    vendor/essential/mata/proprietary/lib/libjni_dualcamera.so:system/lib/libjni_dualcamera.so \
+    vendor/essential/mata/proprietary/lib/libjni_filtergenerator.so:system/lib/libjni_filtergenerator.so \
+    vendor/essential/mata/proprietary/lib/libjni_hazebuster.so:system/lib/libjni_hazebuster.so \
+    vendor/essential/mata/proprietary/lib/libjni_makeupV2.so:system/lib/libjni_makeupV2.so \
+    vendor/essential/mata/proprietary/lib/libjni_optizoom.so:system/lib/libjni_optizoom.so \
+    vendor/essential/mata/proprietary/lib/libjni_seestraight.so:system/lib/libjni_seestraight.so \
+    vendor/essential/mata/proprietary/lib/libjni_sharpshooter.so:system/lib/libjni_sharpshooter.so \
+    vendor/essential/mata/proprietary/lib/libjni_stillmore.so:system/lib/libjni_stillmore.so \
+    vendor/essential/mata/proprietary/lib/libjni_trueportrait.so:system/lib/libjni_trueportrait.so \
+    vendor/essential/mata/proprietary/lib/libjni_truescanner_v2.so:system/lib/libjni_truescanner_v2.so \
+    vendor/essential/mata/proprietary/lib/libjni_ubifocus.so:system/lib/libjni_ubifocus.so \
+    vendor/essential/mata/proprietary/lib/liboptizoom.so:system/lib/liboptizoom.so \
+    vendor/essential/mata/proprietary/lib/libseemore.so:system/lib/libseemore.so \
+    vendor/essential/mata/proprietary/lib/libseestraight.so:system/lib/libseestraight.so \
+    vendor/essential/mata/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/essential/mata/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
-    vendor/essential/mata/proprietary/vendor/lib/libtruescanner.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtruescanner.so \
+    vendor/essential/mata/proprietary/lib/libtruescanner.so:system/lib/libtruescanner.so \
+    vendor/essential/mata/proprietary/lib/libubifocus.so:system/lib/libubifocus.so \
     vendor/essential/mata/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/essential/mata/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/essential/mata/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libblurbuster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libblurbuster.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libclearsight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libclearsight.so \
+    vendor/essential/mata/proprietary/lib64/libblurbuster.so:system/lib64/libblurbuster.so \
+    vendor/essential/mata/proprietary/lib64/libchromaflash.so:system/lib64/libchromaflash.so \
+    vendor/essential/mata/proprietary/lib64/libclearsight.so:system/lib64/libclearsight.so \
     vendor/essential/mata/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libhazebuster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhazebuster.so \
+    vendor/essential/mata/proprietary/lib64/libdualcameraddm.so:system/lib64/libdualcameraddm.so \
+    vendor/essential/mata/proprietary/lib64/libhazebuster.so:system/lib64/libhazebuster.so \
     vendor/essential/mata/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/essential/mata/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libjni_blurbuster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_blurbuster.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libjni_chromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_chromaflash.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libjni_clearsight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_clearsight.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libjni_dualcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_dualcamera.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libjni_filtergenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_filtergenerator.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libjni_hazebuster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_hazebuster.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libjni_makeupV2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_makeupV2.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libjni_optizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_optizoom.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libjni_seestraight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_seestraight.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libjni_sharpshooter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_sharpshooter.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libjni_stillmore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_stillmore.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libjni_trueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_trueportrait.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libjni_truescanner_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_truescanner_v2.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libjni_ubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjni_ubifocus.so \
+    vendor/essential/mata/proprietary/lib64/libjni_blurbuster.so:system/lib64/libjni_blurbuster.so \
+    vendor/essential/mata/proprietary/lib64/libjni_chromaflash.so:system/lib64/libjni_chromaflash.so \
+    vendor/essential/mata/proprietary/lib64/libjni_clearsight.so:system/lib64/libjni_clearsight.so \
+    vendor/essential/mata/proprietary/lib64/libjni_dualcamera.so:system/lib64/libjni_dualcamera.so \
+    vendor/essential/mata/proprietary/lib64/libjni_filtergenerator.so:system/lib64/libjni_filtergenerator.so \
+    vendor/essential/mata/proprietary/lib64/libjni_hazebuster.so:system/lib64/libjni_hazebuster.so \
+    vendor/essential/mata/proprietary/lib64/libjni_makeupV2.so:system/lib64/libjni_makeupV2.so \
+    vendor/essential/mata/proprietary/lib64/libjni_optizoom.so:system/lib64/libjni_optizoom.so \
+    vendor/essential/mata/proprietary/lib64/libjni_seestraight.so:system/lib64/libjni_seestraight.so \
+    vendor/essential/mata/proprietary/lib64/libjni_sharpshooter.so:system/lib64/libjni_sharpshooter.so \
+    vendor/essential/mata/proprietary/lib64/libjni_stillmore.so:system/lib64/libjni_stillmore.so \
+    vendor/essential/mata/proprietary/lib64/libjni_trueportrait.so:system/lib64/libjni_trueportrait.so \
+    vendor/essential/mata/proprietary/lib64/libjni_truescanner_v2.so:system/lib64/libjni_truescanner_v2.so \
+    vendor/essential/mata/proprietary/lib64/libjni_ubifocus.so:system/lib64/libjni_ubifocus.so \
+    vendor/essential/mata/proprietary/lib64/liboptizoom.so:system/lib64/liboptizoom.so \
+    vendor/essential/mata/proprietary/lib64/libseemore.so:system/lib64/libseemore.so \
+    vendor/essential/mata/proprietary/lib64/libtrueportrait.so:system/lib64/libtrueportrait.so \
     vendor/essential/mata/proprietary/vendor/lib64/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrueportrait.so \
+    vendor/essential/mata/proprietary/lib64/libubifocus.so:system/lib64/libubifocus.so \
     vendor/essential/mata/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libarcsoft_dualcam_refocus.so:system/priv-app/Klik/lib/arm64/libarcsoft_dualcam_refocus.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libclearsight.so:system/priv-app/Klik/lib/arm64/libclearsight.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libjni_clearsight.so:system/priv-app/Klik/lib/arm64/libjni_clearsight.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libjni_dualcamrefocus.so:system/priv-app/Klik/lib/arm64/libjni_dualcamrefocus.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libjni_jpegutils.so:system/priv-app/Klik/lib/arm64/libjni_jpegutils.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libjni_yuv.so:system/priv-app/Klik/lib/arm64/libjni_yuv.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libjpeg.so:system/priv-app/Klik/lib/arm64/libjpeg.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libmpbase.so:system/priv-app/Klik/lib/arm64/libmpbase.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libperformance.so:system/priv-app/Klik/lib/arm64/libperformance.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libqti-perfd-client.so:system/priv-app/Klik/lib/arm64/libqti-perfd-client.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/librtmp-jni.so:system/priv-app/Klik/lib/arm64/librtmp-jni.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libspatialmedia.so:system/priv-app/Klik/lib/arm64/libspatialmedia.so \
-    vendor/essential/mata/proprietary/priv-app/Klik/lib/arm64/libview360.so:system/priv-app/Klik/lib/arm64/libview360.so \
     vendor/essential/mata/proprietary/vendor/bin/ATFWD-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ATFWD-daemon \
     vendor/essential/mata/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
-    vendor/essential/mata/proprietary/vendor/bin/btaddr_extract:$(TARGET_COPY_OUT_VENDOR)/bin/btaddr_extract \
     vendor/essential/mata/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/essential/mata/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/essential/mata/proprietary/vendor/bin/hbtp_cmd.sh:$(TARGET_COPY_OUT_VENDOR)/bin/hbtp_cmd.sh \
@@ -267,7 +265,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/essential/mata/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
     vendor/essential/mata/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
-    vendor/essential/mata/proprietary/vendor/lib/libc2d30-a5xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30-a5xx.so \
     vendor/essential/mata/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     vendor/essential/mata/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/essential/mata/proprietary/vendor/lib/libchromatix_csidtg_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_common.so \
@@ -373,6 +370,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-ipc.so \
     vendor/essential/mata/proprietary/vendor/lib/libgcs-osal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-osal.so \
     vendor/essential/mata/proprietary/vendor/lib/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs.so \
+    vendor/essential/mata/proprietary/vendor/lib/libgpustats.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpustats.so \
     vendor/essential/mata/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/essential/mata/proprietary/vendor/lib/libhal_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhal_dbg.so \
     vendor/essential/mata/proprietary/vendor/lib/libhbtpclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpclient.so \
@@ -385,10 +383,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
     vendor/essential/mata/proprietary/vendor/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-glnext.so \
     vendor/essential/mata/proprietary/vendor/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qcom.so \
-    vendor/essential/mata/proprietary/vendor/lib/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvm-qgl.so \
     vendor/essential/mata/proprietary/vendor/lib/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdmdetect.so \
-    vendor/essential/mata/proprietary/vendor/lib/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-disp-apis.so \
-    vendor/essential/mata/proprietary/vendor/lib/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qdcm.so \
     vendor/essential/mata/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/essential/mata/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
     vendor/essential/mata/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so \
@@ -645,7 +640,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
     vendor/essential/mata/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
     vendor/essential/mata/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libc2d30-a5xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a5xx.so \
     vendor/essential/mata/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
     vendor/essential/mata/proprietary/vendor/lib64/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchromaflash.so \
     vendor/essential/mata/proprietary/vendor/lib64/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcne.so \
@@ -670,6 +664,7 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/libgeofence.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofence.so \
     vendor/essential/mata/proprietary/vendor/lib64/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnss.so \
     vendor/essential/mata/proprietary/vendor/lib64/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgps.utils.so \
+    vendor/essential/mata/proprietary/vendor/lib64/libgpustats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpustats.so \
     vendor/essential/mata/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/essential/mata/proprietary/vendor/lib64/libhbtpclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhbtpclient.so \
     vendor/essential/mata/proprietary/vendor/lib64/libhbtpdsp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhbtpdsp.so \
@@ -682,7 +677,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/liblearningmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblearningmodule.so \
     vendor/essential/mata/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
     vendor/essential/mata/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libllvm-qgl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qgl.so \
     vendor/essential/mata/proprietary/vendor/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_api_v02.so \
     vendor/essential/mata/proprietary/vendor/lib64/libloc_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_core.so \
     vendor/essential/mata/proprietary/vendor/lib64/libloc_ds_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libloc_ds_api.so \
@@ -694,8 +688,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/lib64/liblqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblqe.so \
     vendor/essential/mata/proprietary/vendor/lib64/libmdmdetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmdmdetect.so \
     vendor/essential/mata/proprietary/vendor/lib64/libmeters.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmeters.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libmm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-disp-apis.so \
-    vendor/essential/mata/proprietary/vendor/lib64/libmm-qdcm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmm-qdcm.so \
     vendor/essential/mata/proprietary/vendor/lib64/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_frame_algorithm.so \
     vendor/essential/mata/proprietary/vendor/lib64/libmmcamera2_is.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_is.so \
     vendor/essential/mata/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmcamera2_q3a_core.so \
@@ -796,7 +788,6 @@ PRODUCT_COPY_FILES += \
     vendor/essential/mata/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
 
 PRODUCT_PACKAGES += \
-    libgpustats \
     libsdm-disp-vndapis \
     embms \
     ims \
